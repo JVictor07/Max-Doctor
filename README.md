@@ -1,6 +1,6 @@
 <h1>Max Doctor</h1>
 
-<a href="https://max-doctor.netlify.app/">Clique aqui para acessar o site</a>
+<a href="https://max-doctor.netlify.app/">Website Link</a>
 
 <h2>Technologies used 💻</h2>
 <ul>
@@ -15,7 +15,7 @@
   <li>Responsive Website</li>
   <li>BEM CSS Methodology</li>
   <li>Good comments in the code</li>
-  <li>Components Organizations based in this post</li>
+  <li>Components Organizations based in this <a href="https://medium.com/reactbrasil/react-estruturando-projetos-e-nomeando-componentes-b62ddad69a11">post</a></li>
 </ul>
 
 <h2>How do we run this project ? 🖥️</h2>
