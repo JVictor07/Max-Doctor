@@ -49,7 +49,7 @@ const LoginForm = () => {
 
   return (
     <form className="form" onSubmit={(e) => handleSubmit(e)}>
-      <div className={error_CRM && "error"}>
+      <div className={error_CRM ? "error" : ""}>
         <UIInput
           value={CRM}
           input_name="CRM"
@@ -58,13 +58,13 @@ const LoginForm = () => {
           onChange={(e) => {setCRM(e.target.value); setErrorCRM(!ValidateInput(CRM, 5))}}
         />
         {error_CRM && (
-          <span class="error__message">
+          <span className="error__message">
             É necessário que haja pelo menos 5 números
           </span>
         )}
       </div>
 
-      <div className={error_UF && "error"}>
+      <div className={error_UF ? "error" : ""}>
         <UISelect
           name="UF"
           selected={UF}
@@ -73,7 +73,7 @@ const LoginForm = () => {
           options={UFs.map((UF) => UF.sigla).sort()}
         />
         {error_UF && (
-          <span class="error__message">Por favor, selecione uma opção</span>
+          <span className="error__message">Por favor, selecione uma opção</span>
         )}
       </div>
 

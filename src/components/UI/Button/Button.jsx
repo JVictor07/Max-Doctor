@@ -3,7 +3,7 @@ import Ink from 'react-ink'
 import './Button.scss'
 
 const Button = ({text, type}) => (
-  <button type={type} class="button">
+  <button type={type} className="button">
     {text}
     <Ink />
   </button>

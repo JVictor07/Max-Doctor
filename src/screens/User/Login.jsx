@@ -22,31 +22,26 @@ const Login = () => (
     </main>
     <footer className="footer">
       <UIIcon
-        ComponentClass="footer__icon"
         img_src={FacilityIcon}
         img_alt="Teste"
         text="FACILIDADE DE COMPRA"
       />
       <UIIcon
-        ComponentClass="footer__icon"
         img_src={QuantityIcon}
         img_alt="Teste"
         text="QUANTIDADE NÃO LIMITADA"
       />
       <UIIcon
-        ComponentClass="footer__icon"
         img_src={FreeShippingIcon}
         img_alt="Teste"
         text="FRETE GRÁTIS"
       />
       <UIIcon
-        ComponentClass="footer__icon"
         img_src={AgilityIcon}
         img_alt="Teste"
         text="AGILIDADE"
       />
       <UIIcon
-        ComponentClass="footer__icon"
         img_src={ConvenienceIcon}
         img_alt="Teste"
         text="COMODIDADE"

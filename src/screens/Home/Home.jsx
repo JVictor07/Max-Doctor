@@ -8,7 +8,7 @@ import './Home.scss'
 const Home = () => (
   <div className="container-home">
     <UILogo/>
-    <span class="welcome-text">
+    <span className="welcome-text">
       Seja bem-vindo a avaliação do 
       <strong>João Victor Moreira da Silva</strong>
     </span>
