@@ -1,6 +1,6 @@
 <h1>Max Doctor</h1>
 
-<a href="https://insta-react.netlify.app/">Clique aqui para acessar o site</a>
+<a href="https://max-doctor.netlify.app/">Clique aqui para acessar o site</a>
 
 <h2>Technologies used 💻</h2>
 <ul>
@@ -20,7 +20,7 @@
 
 <h2>How do we run this project ? 🖥️</h2>
 <p>
-  For make it easier to you, it's only click here <a href="https://insta-react.netlify.app/">Link</a> and you will go to the hosted website 😁.
+  For make it easier to you, it's only click here <a href="https://max-doctor.netlify.app/">Link</a> and you will go to the hosted website 😁.
 
   Or, if you want to see the code and run this project in your computer, copy the project and run "yarn start" for development mode or "yarn build" for production mode.
 </p>
