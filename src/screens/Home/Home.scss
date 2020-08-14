@@ -1,0 +1,29 @@
+.container-home {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 100px auto 0 auto;
+
+  .welcome-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+    color: #292929;
+    font-weight: bold;
+    margin: 50px;
+
+    strong {
+      margin-top: 5px;
+      color: #7e51bd;
+    }
+  }
+
+  .button {
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background: #9c83be;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,51 @@
+html {
+  &, body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body {
+    background: rgb(230, 221, 242);
+    background: url('../src/assets/background.png') no-repeat center;
+    background-size: cover;
+
+    * {
+      outline: none;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    &::before {
+      content: "";
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 487px;
+      height: 500px;
+      position: fixed;
+      background: url('../src/assets/clock.png') no-repeat center;
+    }
+
+    &::before {
+      content: "";
+      top: 0;
+      left: 0;
+      z-index: -1;
+      width: 300px;
+      height: 300px;
+      position: fixed;
+      background-size: 300px;
+      background: url('../src/assets/clock.png') no-repeat center;
+    }
+  }
+
+  @media screen and (max-width: 500px){
+    body {
+      &::before {
+        width: 300px;
+        height: 300px;
+        background-size: 300px;
+      }
+    }
+  }
+}

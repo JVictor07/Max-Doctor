@@ -1,0 +1,28 @@
+
+.form {
+  .button {
+    margin: 35px 0 25px 0;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    background: #9c83be;
+  }
+  .error {
+    label {
+      background: #f7d6d6
+    }
+    &__message {
+      color: red;
+    }
+  }
+  &__text {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    color: #3a2b49;
+    line-height: 32px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
